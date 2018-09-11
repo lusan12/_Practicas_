@@ -29,7 +29,8 @@ Un arreglo de tamaño N contiene una serie de valores dispuestos en memoria de f
 
 ###### 4. Desarrollo
 
-'using System;
+
+' using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
