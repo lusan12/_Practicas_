@@ -2,29 +2,53 @@
 ### Facultad de Ingeniería
 #### Técnicas de Programación
 #### Sánchez Ruiz Luis Armando
-##### Práctica 6 -Arreglos Unidimensionales
+##### Práctica 7 -Arreglos Multidimensionales
 
 
 ##### 1. Objetivos de aprendizaje
  
-I. Objetivos generales:  Entender el uso, creación y manejos de los datos conocidos como arreglos unidimensionales. 
+I. Objetivos generales:  Entender el funcionamiento y el manejo de los arreglos
+multidimensionales en un lenguaje orientado a objetos. 
  
  
 II. Objetivos específicos:
  
-* Entender el funcionamiento de un arreglo. 
-* Aprender a crear un arreglo. 
-* Aprender los metodos para trabajar arreglos unidimensionales.
- 
+* Implementar una matriz de algún tipo de datos básico. 
+* Implementar una matriz de algún de tipo de objeto.
+
 ##### 2. Introducción
 
-Un arreglo es el conjunto de elementos finito y ordenado más simple soportado por un lenguaje de programación. Se trata de una secuencia de objetos del mismo tipo a los cuales se puede acceder por medio de un índice y todos están agrupados bajo un mismo nombre o identificador.
-Un arreglo de tamaño N contiene una serie de valores dispuestos en memoria de forma consecutiva, el índice representa la posición relativa de los datos en la memoria. La primer posición del arreglo puede corresponder al índice 0 o 1 (dependiendo del lenguaje de programación) y la última posición correspondería, respectivamente, al índice N-1 o N.
+Un arreglo multidimensional se define como una colección homogénea, finita y ordenada
+de datos con N dimensiones. Para hacer referencia a cada componente de un arreglo
+multidimensional se requieren N índices, uno para cada dimensión. Por ejemplo, un arreglo
+de dos dimensiones se trata de un arreglo multidimensional que requiere de dos índices para
+hacer referencia a cada uno de sus componentes, uno para especificar la columna y otro
+para el renglón.
+Los arreglos multidimensionales son ampliamente utilizados en la programación debido a
+que comúnmente se tiene una gran cantidad de datos, que debido a su relación entre sí sería
+mucho más complicado representarlos en una sola dimensión. Por ejemplo, las imágenes
+pueden ser representadas en un arreglo de tres dimensiones debido a que una parte de los
+datos puede expresar el color Rojo, otra para el color Azul y por último el Verde, que al ser
+combinados todos entre sí nos dan el efecto del color real en una imagen.
 
 ##### 3. Actividades
 
-* El alumno utilizará una estructura de datos del tipo arreglo para generar un registro de datos de algún tipo de objeto utilizando al menos 3 operaciones fundamentales para el manejo de arreglos, incluyendo el manejo de al menos 2 excepciones.
+* El alumno definirá al menos dos arreglos de dos o más dimensiones para
+almacenar diversos valores de datos básicos (enteros, flotantes, cadenas,
+booleanos, etc.) con los cuales deberá realizar alguna operación (suma, resta,
+multiplicación, concatenación, etc.).
+Para el almacenamiento, consulta y modificación de los valores almacenados en
+cada arreglo, así como para la visualización de los resultados generados, se
+deberá implementar una interfaz gráfica de usuario que sea adecuada y fácil de
+utilizar.
 
-* El alumno realizará operaciones con los valores almacenados en al menos dos arreglos, utilizando para ello las estructuras de control más adecuadas.
+* El alumno definirá al menos dos arreglos de dos o más dimensiones para el
+almacenamiento de objetos que deberán tener cada uno al menos dos atributos,
+y deberá realizarse al menos una operación entre objetos contenidos en
+diferentes arreglos.
+Para el almacenamiento, consulta y modificación de los valores de los atributos
+de los objetos almacenados en cada arreglo, así como para la visualización de
+los resultados generados, se deberá implementar una interfaz gráfica de usuario
+que sea adecuada y fácil de utilizar.
 
 ##### 4. Desarrollo
