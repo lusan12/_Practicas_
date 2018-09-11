@@ -30,18 +30,8 @@ Un arreglo de tamaño N contiene una serie de valores dispuestos en memoria de f
 ###### 4. Desarrollo
 
 
-' using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+' 
 
-namespace p3final
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
             int[] datos = { 10, 20, 30, 40, 50 };
             int[] datos2 = { 100, 200, 300, 400, 50 };
 
