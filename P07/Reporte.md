@@ -52,3 +52,73 @@ los resultados generados, se deberá implementar una interfaz gráfica de usuari
 que sea adecuada y fácil de utilizar.
 
 ##### 4. Desarrollo
+
+
+
+
+
+        private int[,] MatrizA;
+        private int[,] MatrizB;
+        private int[,] MatrizC;
+        public void Cargar()
+        {
+            MatrizA = new int[4, 4];
+            MatrizB = new int[4, 4];
+            MatrizC = new int[4, 4];
+            Console.WriteLine("Ingresando datos al matriz A");
+            for (int i = 1; i <= 2; i++)
+            {
+                for (int j = 1; j <= 2; j++)
+                {
+                    Console.Write("Ingrese posicion [" + i + "," + j + "]: ");
+                    string linea;
+                    linea = Console.ReadLine();
+                    MatrizA[i, j] = int.Parse(linea);
+                }
+            }
+            Console.WriteLine("Ingresando datos al matriz B");
+            for (int i = 1; i <= 2; i++)
+            {
+                for (int j = 1; j <= 2; j++)
+                {
+                    Console.Write("Ingrese posicion [" + i + "," + j + "]: ");
+                    string linea;
+                    linea = Console.ReadLine();
+                    MatrizB[i, j] = int.Parse(linea);
+                }
+            }
+
+            for (int i = 1; i <= 2; i++)
+            {
+                for (int j = 1; j <= 2; j++)
+                {
+                    MatrizC[i, j] = MatrizA[i, j] + MatrizB[i, j];
+                }
+            }
+        }
+
+        public void suma()
+        {
+            Console.WriteLine("La suma de la Matriz A y Matriz B es :");
+            for (int i = 1; i <= 2; i++)
+            {
+                Console.Write("\n");
+                for (int j = 1; j <= 2; j++)
+                {
+                    Console.Write(MatrizC[i, j] + "  ");
+                }
+            }
+
+            Console.ReadKey();
+        }
+
+
+        static void Main(string[] args)
+        {
+            Matriz pv = new Matriz();
+            pv.Cargar();
+            pv.suma();
+        }
+    }
+}
+
