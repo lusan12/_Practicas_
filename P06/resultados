@@ -1,0 +1,14 @@
+Elementos del Arreglo 1
+10 20 30 40
+Numero diez (10) encontrado en la posición 1
+El numero mas grande es 40
+Añadiendo seis (6) al final
+10 20 30 40 6
+Eliminando el segundo dato del primer arreglo
+10 30 40 6
+Insertando otro treinta (30) en la posición 3
+10 30 30 40 6
+Multiplicando los elementos del arreglo 110*30*30 es =9000
+Elementos del Arreglo 2
+100 200 300 400 50
+Multiplicando los elementos del arreglo 1 y 2 10*200*30 es =6000000
