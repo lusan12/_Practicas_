@@ -3,23 +3,23 @@ Desarrollar una herramienta que permita sumar y restar dos números.
 
 ## Requisitos:
 
-- Tipo de números
+- Tipo de números:
 Todos los números reales, enteros, punto decimal.
-- Rango
+- Rango:
 3 dígitos
-- Las operaciones son al mismo tiempo
+- Las operaciones son al mismo tiempo:
 No
-- Mostrar resultados al mismo tiempo
+- Mostrar resultados al mismo tiempo:
 No
-- Que pasa cuanto se hace la operación
+- Que pasa cuanto se hace la operación:
 Muestra resultados y mantiene datos con los que se realizo la operación
-- Como mostrar errores
+- Como mostrar errores:
 Donde esta el error
-- Preferencia de las etiquetas
+- Preferencia de las etiquetas:
 Deben de estar ajustadas al máximo de caracteres permitidos.
-- Font
+- Font:
 16px
-- Notas
+- Notas:
 Agregar un boton de borrar
 
 
