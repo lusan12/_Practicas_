@@ -1,2 +1,2 @@
-# _Practicas_
+# _Prácticas_
 Técnicas de Programación
