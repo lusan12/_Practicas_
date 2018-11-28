@@ -31,6 +31,12 @@ ejecución. Por ejemplo: A partir de una clase base denominada
 “Transporte” será también capaz de manejar objetos de cualquiera de sus
 clases derivadas.
 
+  2. Las clases base pueden definir e implementar métodos virtuales, y las clases derivadas pueden invalidarlos, lo que significa que pueden proporcionar su propia definición e implementación. En tiempo de ejecución, cuando el código del cliente llama al método, busca el tipo en tiempo de ejecución del objeto e invoca esa invalidación del método virtual. Por lo tanto, en el código fuente puede llamarse a un método en una clase base y hacer que se ejecute una versión del método de la clase derivada. Retomando el ejemplo
+anterior, la clase “Transporte” podría incorporar un método virtual llamado “Mover”, de esta manera cada una de sus clases derivadas (“Automóvil”, “Barco” y “Avión”) sería capaz de implementar a su propia manera dicho método, dependiendo del medio en el cual se desplace (tierra, agua o aire, respectivamente).
+
+Los métodos virtuales permiten trabajar de manera uniforme con distintos grupos de
+objetos relacionados.
+
 ##### 3. Actividades
 
 
